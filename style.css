@@ -37,14 +37,14 @@ nav{
     margin-bottom: 400px; */
     height: max-content;
     position: relative;
-    top: 337px;
-    right: 911px;
+    right: 1303px;
+    top: 289px;
 }
 .orange{
     color: #FE461C;
 }
 .img_container_Box_header{
-    font-size: 50px;
+    font-size: 48px;
 }
 .Welcome{
     font-size: 23px;
@@ -68,7 +68,7 @@ nav{
 
 .small_circle{
     width: 204px;
-    height: 204px;
+    height: 150px;
     border-radius: 100%;
     background-color: #bbc5d30f;
     position: relative;
@@ -77,7 +77,7 @@ nav{
     content: "";
 }
 .big_circle{
-    width: 634px;
+    width: 1000px;
     height: 634px;
     border-radius: 100%;
     background-color: #171929;
@@ -99,7 +99,7 @@ nav{
     align-items: center;
     position: relative;
     top: 269px;
-    left: 166px;
+    left: 221px;
 }
 .box_html{
     width: 80px;
@@ -110,8 +110,9 @@ nav{
     align-items: center;
     position: relative;
     top: 654px;
-    left: 53px;
+    left: 90px;
 }
+
 .box_css{
     width: 80px;
     height: 80px;
@@ -121,7 +122,7 @@ nav{
     align-items: center;
     position: relative;
     top: 269px;
-    left: 685px;
+    left: 713px;
 }
 .box_boostrap{
     width: 80px;
@@ -132,9 +133,14 @@ nav{
     align-items: center;
     position: relative;
     top: 654px;
-    left: 613px;
+    left: 673px;
 }
-
+.my_photo{
+    position: relative;
+}
+.border_radius{
+    border-radius: 10px;
+}
 
 
 
@@ -188,6 +194,9 @@ nav{
 .box_section1_right{
     width: 40%;
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .box_section1_right_text1{
     width: 115px;
@@ -221,7 +230,7 @@ nav{
 }
 
 .section2{
-    height: 103vh;
+    height: 105vh;
     background-color: #1F2235;
     display: flex;
     display: flex;
@@ -233,14 +242,12 @@ nav{
     align-items: center;
 }
 .box_section2_text{
-    text-align: center;
     color: #fff;
     font-size: 20px;
     width: 115px;
     height: 36px;
     background-color: #24263B;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 .cards{
@@ -255,12 +262,20 @@ nav{
     flex-wrap: wrap;
     width: 424px;
     margin-right: 24px;
+    height: max-content;
+}
+.card3{
+    height: 265px;
+}
+.card2{
+    height: 550px;
 }
 .Box_cards2{
     margin: 0;
     display: flex;
     flex-wrap: wrap;
     width: 50%;
+    height: max-content;
 }
 .one{
     width: 424px;
@@ -269,6 +284,13 @@ nav{
 .two{
     width: 424px;
     height: 544px;
+}
+.card1{
+    height: 265px;
+   
+}
+.box_section1_left_img{
+   
 }
 .margin{
     margin-bottom: 24px;
@@ -323,7 +345,7 @@ nav{
 
 }
 .img_button{
-    background-color: #FE461C;
+    /* background-color: #FE461C; */
     color: #fff;
     text-decoration: none;
     height: 50px;
@@ -333,6 +355,7 @@ nav{
     bottom: 55px;
     right: 5px;
     transition: 0.2s;
+    left: -381px;
 }
 .img_button:hover{
     position: relative;
@@ -419,7 +442,7 @@ nav{
     font-size: 30px;
    }
    .section2{
-    height: 105vh;
+    height: 115vh;
    }
    .one{
     width: 390px;
@@ -439,6 +462,14 @@ nav{
     height: 780px;
     width: 390px;
    }
+   .img_button{
+    position: relative;
+    left: -339px;
+   }
+   .card2{
+    height: 513px;
+   }
+    
 }
 @media screen and (max-width: 1030px) {
     .box_section1_left{
@@ -535,6 +566,10 @@ nav{
         position: relative;
         left: -617px;
     }
+    .img_button{
+        position: relative;
+        left: -300px;
+    }
 }
 @media screen and (max-width: 770px) {
     .box_section1_right_header{
@@ -581,10 +616,11 @@ nav{
     }
     .flex-end{
         margin: 0;
-        margin-bottom: 24px;
+        margin-bottom: 75px;
     }
     .section2{
         height: max-content;
+        padding-bottom: 20px;
     }
     .card3{
         margin: 0;
@@ -610,6 +646,7 @@ nav{
     }
     .box_section1_left_img{
         width: 200px;
+        height: 400px;
     }
     .box_section1_left{
         width: 200px;
@@ -679,5 +716,10 @@ nav{
     .Phone{
         font-size: 12px;
     }
+    .img_button{
+        position: relative;
+        left: -244px;
+    }
+    
    
 }

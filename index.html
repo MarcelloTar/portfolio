@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -11,17 +13,13 @@
 <body>
     <nav>
         <div class="Box_navbar">
-            <a class="Box_navbar_Text" href="">Home</a>
-            <a class="Box_navbar_Text" href="">About</a>
-            <a class="Box_navbar_Text" href="">Portfolio</a>
-            <!-- <a class="Box_navbar_Text" href="">Services</a>
-            <a class="Box_navbar_Text" href="">Resume</a>
-            <a class="Box_navbar_Text" href="">Client</a>
-            <a class="Box_navbar_Text" href="">Blog</a> -->
-            <a class="Box_navbar_Text" href="">contact</a>
+            <a class="Box_navbar_Text" href="#home">Home</a>
+            <a class="Box_navbar_Text" href="#About_me">About me</a>
+            <a class="Box_navbar_Text" href="#Portfolio">Portfolio</a>
+            <a class="Box_navbar_Text" href="#contact">contact</a>
         </div>
     </nav>
-    <div class="img_container">
+    <div class="img_container" id="home">
         <div class="social">
             <div class="social_fon" data-aos="fade-right" data-aos-duration="1500">
                 <a href="">
@@ -51,24 +49,26 @@
         <div class="big_circle" data-aos="fade-up" data-aos-delay="50" data-aos-duration="2000">   
         </div>
         
-        <div class="box_figma" data-aos="fade-up-right" data-aos-duration="1400" data-aos-delay="50">
+        <div class="box_figma border_radius" data-aos="fade-up-right" data-aos-duration="1400" data-aos-delay="50">
             <img src="./img/Figma.png" alt="" class="img_figma" data-aos="fade-down-right" data-aos-duration="1800" data-aos-delay="50">
         </div>
         
 
-        <div class="box_html" data-aos="fade-down-right" data-aos-duration="1400" data-aos-delay="50">
+        <div class="box_html border_radius" data-aos="fade-down-right" data-aos-duration="1400" data-aos-delay="50">
             <img src="./img/html.png" alt="" class="img_figma" data-aos="fade-up-right" data-aos-duration="1800" data-aos-delay="50">
         </div>
 
         
-        <div class="box_css" data-aos="fade-up-left" data-aos-duration="1400" data-aos-delay="50">
+        <div class="box_css border_radius" data-aos="fade-up-left" data-aos-duration="1400" data-aos-delay="50">
             <img src="./img/css.png" alt="" class="img_figma" data-aos="fade-down-left" data-aos-duration="1800" data-aos-delay="50">
         </div>
         
         
-        <div class="box_boostrap" data-aos="fade-down-left">
+        <div class="box_boostrap border_radius" data-aos="fade-down-left">
             <img src="./img/boostrap.png" alt="" class="img_figma" data-aos="fade-up-left" data-aos-duration="1800" data-aos-delay="50">
         </div>
+
+        <img src="./img/my_photo.png" alt="" class="my_photo">
         
         
 
@@ -80,21 +80,17 @@
             <h1 class="img_container_Box_header" data-aos="fade-up" data-aos-duration="1600">Hello I`m Marko Tarasenko <Span class="orange">web-developer</Span>.</h1>
         </div>
     </div>
-    <div class="section1">
+    <div class="section1" id="About_me">
         <div class="box_section1">
             <div class="box_section1_left" data-aos="fade-right" data-aos-duration="1500">
-                <img src="./img/img.png" alt="" class="box_section1_left_img">
+                <img src="./img/my_photo_border.png" alt="" class="box_section1_left_img">
             </div>
             <div class="box_section1_right">
                 <div class="box_section1_right_text1" data-aos="fade-left" data-aos-duration="1000">
                     <p>About me</p>
                 </div>
                 <h1 class="box_section1_right_header" data-aos="fade-left" data-aos-duration="1400">Marko Tarasenko</h1>
-                <p class="box_section1_right_text2" data-aos="fade-left" data-aos-duration="1450">"I'm Graphic Designer,and I'm very passionate and dedicated to my work 
-                    With 20 years experience as a professional Photography, I have lot of
-                    acquired the skills and knowledge necessary to make your project a 
-                    success. I enjoy every step the Photography process,from discussion 
-                    and collaboration." не мій тект</p>
+                <p class="box_section1_right_text2" data-aos="fade-left" data-aos-duration="1450">Мені 17 років, проживаю в місті Бориславі.  Маю невеликий досвід в веб розробці але я вдосконалюю свої навички. І маю 3 готові проєкти.</p>
                 <div class="box_section1_right_text1_center" data-aos="fade-left" data-aos-duration="1500">
                     <div class="box_section1_right_text1_left" data-aos-duration="1550">
                         <p class="Birthday"><b >Birthday</b> : <span class="Birthday_text">1 February 2007</span></p>
@@ -107,7 +103,7 @@
             </div>
         </div>
     </div>
-    <div class="section2">
+    <div class="section2" id="Portfolio">
         <div class="box_section2">
             <div class="box_section2_Text_header">
                 <div class="box_section2_text">
@@ -123,7 +119,18 @@
                                <p class="img_hover"><b>Coffe</b><br> <b>technologies are used</b> html <br> css</p>
                               
                             </div>
-                             <a href=""  target="_blank"><button class="img_button">visit</button></a>
+                             <div class="btn-group dropup img_button">
+                                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #00000000; border: none;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0z"/>
+                                        <path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708z"/>
+                                    </svg>
+                                </button>
+                                <ul class="dropdown-menu" style="color: #00000000;">
+                                    <li><a class="dropdown-item" href="https://marcellotar.github.io/coffe/">view project</a></li>
+                                    <li><a class="dropdown-item" href="https://github.com/MarcelloTar/coffe">view code </a></li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="card4" data-aos="zoom-in-right" data-aos-duration="1500">
                             <div class="box_img_card4">
@@ -137,10 +144,33 @@
                             <div style="background-image: url(./img/computer_store.png);" class="box_img_card2 box_img two">
                                 <p class="img_hover"><b>computerstore</b><br> <b>technologies are used</b><br> html <br>css <br>boostrap</p>
                             </div>
+                            <div class="btn-group dropup img_button">
+                                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #00000000; border: none;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0z"/>
+                                        <path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708z"/>
+                                    </svg>
+                                </button>
+                                <ul class="dropdown-menu" style="color: #00000000;">
+                                    <li><a class="dropdown-item" href="https://marcellotar.github.io/computer_store/">view project</a></li>
+                                    <li><a class="dropdown-item" href="https://github.com/MarcelloTar/computer_store">view code </a></li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="card5"  data-aos="zoom-out-up">
                             <div style="background-image: url(./img/token_site.png);" class="box_img_card5 box_img one">
                                <p class="img_hover"><b>token site</b><br> <b>technologies are used</b><br> html <br> css <br> aos</p>
+                            </div>
+                            <div class="btn-group dropup img_button">
+                                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #00000000; border: none;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0z"/>
+                                        <path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708z"/>
+                                    </svg>
+                                </button>
+                                <ul class="dropdown-menu" style="color: #00000000;">
+                                    <li><a class="dropdown-item" href="">view project</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -149,6 +179,18 @@
                     <div class="card3 margin " data-aos="zoom-in-left" data-aos-duration="1500">
                         <div style="background-image: url(./img/SportShop.png);" class="box_img_card3 box_img one">
                             <p class="img_hover"><b>SportShop</b><br> <b>technologies are used</b><br> html <br> css <br> boostrap</p>
+                        </div>
+                        <div class="btn-group dropup img_button">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #00000000; border: none;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0z"/>
+                                    <path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708z"/>
+                                </svg>
+                            </button>
+                            <ul class="dropdown-menu" style="color: #00000000;">
+                                <li><a class="dropdown-item" href="https://marcellotar.github.io/sportshop/">view project</a></li>
+                                <li><a class="dropdown-item" href="https://github.com/MarcelloTar/SportShop">view code </a></li>
+                            </ul>
                         </div>
                     </div>
                     <div class="card6 " data-aos="zoom-in-left" data-aos-duration="1500">
@@ -160,7 +202,7 @@
             </div>
         </div>
     </div>
-    <div class="section3">
+    <div class="section3" id="contact">
         <div class="Box_section3">
             <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
                 <fieldset id="fs-frm-inputs">
