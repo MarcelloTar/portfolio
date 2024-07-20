@@ -837,6 +837,9 @@ nav{
     .img_container_Box_header{
         font-size: 20px;
     }
+    .Mail_text{
+        font-size: 4px;
+    }
 }
 @media screen and (max-width: 380px) {
     .Mail_text{
