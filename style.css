@@ -825,7 +825,23 @@ nav{
         height: 85vh;
     }
 }
+@media screen and (max-width:400px) {
+    .big_circle{
+        height: 370px;
+        width: 370px;
+    }
+    .img_container_Box{
+        left: 77px;
+        width: 70%; 
+    }
+    .img_container_Box_header{
+        font-size: 20px;
+    }
+}
 @media screen and (max-width: 380px) {
+    .Mail_text{
+        font-size: 5px;
+    }
     .img_container_Box{
         top: 290px;
         left: 89px;
@@ -850,6 +866,9 @@ nav{
     }
 }
 @media screen and (max-width:320px) {
+    .Mail_text{
+        font-size: 4px;
+    }
     .one{
         width: 290px;
     }
