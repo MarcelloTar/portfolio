@@ -26,7 +26,6 @@ nav{
 .img_container{
     background-color: #1F2235;
     height: 94.7vh;
-    background-size: cover;
     display: flex;
 }
 .img_container_Box{
@@ -412,13 +411,10 @@ nav{
         left: 689px;
         top: 67px;
     }
-    */
-   
-
-
-  
+    
+     
    .img_container{
-   background-size: auto;
+    height: 104vh;
    } 
    .img_container_Box_header{
     font-size: 30px;
@@ -454,6 +450,9 @@ nav{
     
 }
 @media screen and (max-width: 1030px) {
+.img_container{
+    height: 102vh;
+}
 .big_circle{
     width: 450px;
     height: 450px;
@@ -616,7 +615,7 @@ nav{
     }
 
     .img_container{
-        height: 130vh;
+        height: 145vh;
     }
     .social{
         height: 50%;
@@ -746,13 +745,13 @@ nav{
     .Box_cards{
         display: flex;
         flex-wrap: wrap;
-       justify-content: center;
-       height: max-content;
+        justify-content: center;
+        height: max-content;
     }
     .Box_cards2{
         display: flex;
         flex-wrap: wrap;
-       justify-content: center;
+        justify-content: center;
     }
     .flex-end{
         margin: 0;
@@ -826,6 +825,9 @@ nav{
     }
 }
 @media screen and (max-width:400px) {
+    .img_container{
+        /* height: ; */
+    }
     .big_circle{
         height: 370px;
         width: 370px;
@@ -916,7 +918,7 @@ nav{
         top: 683px;
     }
     .img_container{
-        height: 120vh;
+        height: 135vh;
     }
     .my_photo{
         width: 250px;
