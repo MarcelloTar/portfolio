@@ -147,7 +147,9 @@ nav{
     border-radius: 10px;
 }
 
-
+.mobile_mail{
+    display: none;
+}
 .section1{
     height: 99vh;
     background-color: #24263B;
@@ -652,7 +654,15 @@ nav{
         width: 55%;
         top: 315px;
     }
-
+    .social_margin{
+        margin-left: 100%;
+    }
+    .box_section1_right_text1_right{
+        display: none;
+    }
+    .mobile_mail{
+        display: block;
+    }
 
 }
 @media screen and (max-width: 430px) {
@@ -712,7 +722,7 @@ nav{
         left: 114px;
     }
     .Mail_text{
-        font-size: 7px;
+        font-size: 12px;
     }
 
 
@@ -840,12 +850,15 @@ nav{
         font-size: 20px;
     }
     .Mail_text{
-        font-size: 4px;
+        /* font-size: 4px; */
+    }
+    .Birthday{
+        width: 100%;
     }
 }
 @media screen and (max-width: 380px) {
     .Mail_text{
-        font-size: 5px;
+        /* font-size: 5px; */
     }
     .img_container_Box{
         top: 290px;
@@ -872,7 +885,7 @@ nav{
 }
 @media screen and (max-width:320px) {
     .Mail_text{
-        font-size: 4px;
+        font-size: 10px;
     }
     .one{
         width: 290px;
